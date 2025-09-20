@@ -1,26 +1,33 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "AI Resume Analyzer",
+    "imageKey": "aiResume",
+    "description": "AI Resume Analyzer helps job seekers evaluate and optimize resumes using parsing, keyword analysis, and smart feedback.",
+    "skills": ["MySQL", "React", "Node"],
+    "demo": "https://ai-resume-analyzer-drab.vercel.app/",
+    "source": "https://github.com/anushkakarmakar-14/ai-resume--analyzer"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Real Estate Finder",
+    "imageKey": "realEstate",
+    "description": "Real Estate Platform showcasing property listings with modern UI, search filters, and responsive design.",
+    "skills": ["React", "Next.js", "CSS"],
+    "demo": "https://real-estate-nine-bice.vercel.app/",
+    "source": "https://github.com/anushkakarmakar-14/real_estate"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "AI Interview Prep",
+     "imageKey": "aiInterview",
+    "description": "A web app for practicing mock interviews with AI-powered feedback, tracking your progress, and improving your confidence.",
+    "skills": ["React", "NodeJS", "Firebase"],
+    "demo": "https://prep-wise-ai-powered-interview.vercel.app/",
+    "source": "https://github.com/anushkakarmakar-14/PrepWise---AI-powered-Interview"
+  },{
+    "title": "Digital Photobooth",
+    "imageKey": "digital",
+    "description": "A fun digital photo booth web app.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://digital-photo-booth.vercel.app/",
+    "source": "https://github.com/anushkakarmakar-14/Digital-PhotoBooth"
   }
 ]

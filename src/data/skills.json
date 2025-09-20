@@ -1,30 +1,14 @@
 [
-  {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
-  }
+  { "title": "HTML", "imageSrc": "skills/html.png" },
+  { "title": "CSS", "imageSrc": "skills/css.png" },
+  { "title": "React", "imageSrc": "skills/react.png" },
+  { "title": "Node", "imageSrc": "skills/node.png" },
+  { "title": "JavaScript", "imageSrc": "skills/js.png" },
+  { "title": "MongoDB", "imageSrc": "skills/mongodb.png" },
+  { "title": "Figma", "imageSrc": "skills/figma.png" },
+  { "title": "Cpp", "imageSrc": "skills/cpp.png" },
+  { "title": "MySQL", "imageSrc": "skills/mysql.png" },
+  { "title": "Python", "imageSrc": "skills/python.png" },
+  { "title": "Flask", "imageSrc": "skills/flask.png" },
+  { "title": "Postman", "imageSrc": "skills/postman.png" }
 ]

@@ -1,7 +1,10 @@
 import React from "react";
-
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
+
+// Direct imports of all images
+import aboutImage from "../../assets/about/aboutImage.png";
+import cursorIcon from "../../assets/about/cursorIcon.png";
+import serverIcon from "../../assets/about/serverIcon.png";
 
 export const About = () => {
   return (
@@ -9,38 +12,35 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={aboutImage}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={cursorIcon} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Frontend developer crafting sleek, responsive, and lightning-fast websites that users love. Passionate about building responsive, high-performance websites with clean code and modern design.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={serverIcon} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I build fast, reliable backend systems and APIs that make apps run smoothly. I love turning complex problems into optimized, scalable solutions that power seamless digital experiences.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={cursorIcon} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Digital Designer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                Crafted cohesive design systems and engaging landing pages that balance aesthetics with usability.
               </p>
             </div>
           </li>
